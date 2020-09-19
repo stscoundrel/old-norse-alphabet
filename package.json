@@ -1,0 +1,27 @@
+{
+  "name": "old-norse-alphabet",
+  "version": "1.0.0",
+  "description": "Old Norse alphabet alphabet constants for JS.",
+  "main": "index.js",
+  "repository": "https://github.com/stscoundrel/old-norse-alphabet.git",
+  "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.4.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
+    "test": "jest --verbose --runInBand --passWithNoTests",
+    "prepublishOnly": "npm test"
+  }
+}

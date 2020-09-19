@@ -3,6 +3,7 @@ const {
   LOWER_CASE,
   UPPER_CASE,
   VALID_AS_FIRST,
+  ETH
 } = require('../index.js')
 
 describe('Lowercase constants', () => {
@@ -47,4 +48,21 @@ describe('Uppecase constants', () => {
       expect(ALPHABET.includes(letter)).toBeTruthy()
     ))
   })
+})
+
+describe('Valid as first character constants', () => {
+  test('Alphabet is returned in array format', () => {
+    expect(Array.isArray(VALID_AS_FIRST)).toBeTruthy()
+  })
+
+  test('Eth (ð) is not a valid starting letter', () => {
+    expect(VALID_AS_FIRST.includes(ETH)).toBeFalsy()
+  })
+})
+
+describe('Combined alphabet constants', () => {
+  test('Constains all uppercase & lowercase characters', () => {
+    expect([...LOWER_CASE, ...UPPER_CASE]).toMatchObject(ALPHABET)
+  })
+
 })

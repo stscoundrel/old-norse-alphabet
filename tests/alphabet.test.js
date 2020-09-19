@@ -26,3 +26,25 @@ describe('Lowercase constants', () => {
     ))
   })
 })
+
+describe('Uppecase constants', () => {
+  test('Alphabet is returned in array format', () => {
+    expect(Array.isArray(UPPER_CASE)).toBeTruthy()
+  })
+
+  test('Alphabet contains 34 characters', () => {
+    expect(UPPER_CASE.length).toBe(34)
+  })
+
+  test('Characters are returned in uppercase.', () => {
+    UPPER_CASE.forEach((letter) => (
+      expect(letter).toBe(letter.toUpperCase())
+    ))
+  })
+
+  test('All characters also exist in main alphabet.', () => {
+    UPPER_CASE.forEach((letter) => (
+      expect(ALPHABET.includes(letter)).toBeTruthy()
+    ))
+  })
+})

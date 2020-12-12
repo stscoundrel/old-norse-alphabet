@@ -6,7 +6,7 @@ const UPPER_CASE = ['A', 'Á', 'B', 'D', 'Ð', 'E', 'É', 'F', 'G', 'H', 'I', '�
 const ALPHABET = [...LOWER_CASE, ...UPPER_CASE]
 
 // Letters valid as first characters of a word.
-const VALID_AS_FIRST = ['a', 'á', 'b', 'd', 'e', 'é', 'f', 'g', 'h', 'i', 'í', 'j', 'k', 'l', 'm', 'n', 'o', 'ó', 'p', 'r', 's', 't', 'u', 'ú', 'v', 'w', 'y', 'ý', 'þ', 'æ', 'ǫ', 'ø', 'œ']
+const VALID_AS_FIRST = ['a', 'á', 'b', 'd', 'e', 'é', 'f', 'g', 'h', 'i', 'í', 'j', 'k', 'l', 'm', 'n', 'o', 'ó', 'p', 'r', 's', 't', 'u', 'ú', 'v', 'y', 'ý', 'þ', 'æ', 'ǫ', 'ø', 'œ']
 
 // "Special" letters.
 const ETH = 'ð'

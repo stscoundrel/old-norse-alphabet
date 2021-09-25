@@ -47,6 +47,7 @@ const {
   ASH,
   SLASHED_O,
   OE,
+  AE,
 } = require('old-norse-alphabet')
 
 console.log(ETH) // ð
@@ -55,6 +56,7 @@ console.log(O_CAUDATA) // ǫ
 console.log(ASH) // æ
 console.log(SLASHED_O) // ø
 console.log(OE) // œ
+console.log(AE) // Same as ASH, æ
 
 ```
 

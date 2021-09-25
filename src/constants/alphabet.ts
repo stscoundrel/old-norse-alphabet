@@ -15,6 +15,7 @@ export const O_CAUDATA = 'ǫ';
 export const ASH = 'æ';
 export const SLASHED_O = 'Ø';
 export const OE = 'œ';
+export const AE = ASH;
 
 export default {
   ALPHABET,
@@ -27,4 +28,5 @@ export default {
   ASH,
   SLASHED_O,
   OE,
+  AE: ASH,
 };

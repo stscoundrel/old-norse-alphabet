@@ -1,6 +1,6 @@
 {
   "name": "old-norse-alphabet",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Old Norse alphabet alphabet constants for JS.",
   "repository": "https://github.com/stscoundrel/old-norse-alphabet.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",

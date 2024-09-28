@@ -9,7 +9,7 @@ Old Norse constains letters that may be hard to type with most keyboards. Prime 
 
 ### Install
 
-`yarn add old-norse-alphabet`
+`npm install old-norse-alphabet`
 
 ### Usage
 
